@@ -1,0 +1,93 @@
+
+footer {
+    padding: 50px 0;
+    background-color: #222;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .wrapper .header-text {
+     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+    margin: 0;
+    text-align: left;
+}
+
+footer .wrapper .social .description{
+    width: 88%;
+}
+
+footer .wrapper .social .description p {
+    opacity: 0.75;
+     font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: #fff;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+footer .wrapper ul {
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+footer .wrapper ul li {
+    list-style: none;
+    margin-bottom: 7px;
+    text-align: left;
+    
+}
+footer .wrapper ul li a {
+    opacity: 0.75;
+     font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 769px) {
+    footer .wrapper .social li {
+        margin-right: 5px !important;
+   }
+    footer .wrapper .social li img {
+        width: 80%;
+   }
+    footer .wrapper .contact-subscribe .subscribe .send input::placeholder {
+        font-size: 12px;
+   }
+    footer .wrapper .header-text {
+        margin-top: 25px;
+   }
+    footer .wrapper .site-map p {
+        margin-top: 0 !important;
+   }
+}
+@media only screen and (max-width: 590px) {
+    footer .wrapper .logo img {
+        width: 35% !important;
+   }
+}
