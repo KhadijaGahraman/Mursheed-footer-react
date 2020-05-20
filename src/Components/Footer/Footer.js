@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import "bootstrap/dist/css/bootstrap.css";
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <footer>
       <div className="container">
@@ -80,7 +80,9 @@ const Footer = () => {
                 </div>
                 <div className="subscribe">
                   <p className="header-text">Subscribe</p>
-                  <div className="send pt-2"></div>
+                  <div className="send pt-2">
+                  
+                  </div>
                 </div>
               </div>
             </div>
